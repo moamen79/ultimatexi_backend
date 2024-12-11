@@ -3,16 +3,22 @@ const fs = require('fs');
 const cors = require('cors');
 
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 
-app.use(cors());
+// Updated CORS configuration to allow requests from your S3 bucket
+app.use(cors({
+  origin: [
+    'http://ultimatexi.s3-website-us-east-1.amazonaws.com',
+    'http://localhost:3000'  // Keep localhost for development
+  ],
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
+// Static file serving
 app.use(express.static('public'));
 
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}/`);
-});
-
+// Parse JSON bodies
 app.use(express.json());
 
 app.get('/api/popularPlayers', async (req, res) => {
@@ -50,7 +56,6 @@ app.get('/api/popularPlayers', async (req, res) => {
   }
 });
 
-
 app.get('/api/leagues', async (req, res) => {
   try {
     const data = require('./public/data/api.json');
@@ -64,4 +69,19 @@ app.get('/api/leagues', async (req, res) => {
     console.error('There has been an error reading the JSON file:', error);
     res.status(500).send('An error occurred while retrieving the leagues');
   }
+});
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
+
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
