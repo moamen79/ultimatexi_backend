@@ -1,0 +1,306 @@
+{
+  "metadata": {
+    "name": "Mock API",
+    "author": "Moamen Ahmed",
+    "date": "Nov-22-2023"
+  },
+  "data": [
+    {
+      "name": "Alisson",
+      "league": "Premier League",
+      "price": "38000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Alisson.png",
+        "alt": "Alisson"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Luka Modric",
+      "league": "La Liga",
+      "price": "38000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Modric.png",
+        "alt": "Luka Modric"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Antoine Griezmann",
+      "league": "La Liga",
+      "price": "25000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Antoine_Griezmann.png",
+        "alt": "Antoine Griezmann"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Marco Asensio",
+      "league": "Ligue 1",
+      "price": "2000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Asensio.png",
+        "alt": "Marco Asensio"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Berardi",
+      "league": "Seria A",
+      "price": "2000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Berardi.png",
+        "alt": "Berardi"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Barella",
+      "league": "Seria A",
+      "price": "12000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Barella.png",
+        "alt": "Barella"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Cancelo",
+      "league": "La Liga",
+      "price": "34000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Cancelo.png",
+        "alt": "Cancelo"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Courtois",
+      "league": "La Liga",
+      "price": "53000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Courtois.png",
+        "alt": "Courtois"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Gavi",
+      "league": "La Liga",
+      "price": "4000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Gavi.png",
+        "alt": "Gavi"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Erling Haaland",
+      "league": "Premier League",
+      "price": "95000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Erling_Haaland.png",
+        "alt": "Erling Haaland"
+      },
+      "search_history": 
+      [ "2023-11-25", 
+        "2023-11-24"
+      ]
+    },
+    {
+      "name": "Federico Valverde",
+      "league": "La Liga",
+      "price": "170000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Valverde.png",
+        "alt": "Federico Valverde"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Joshua Kimmich",
+      "league": "Bundesliga",
+      "price": "23000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Kimmich.png",
+        "alt": "Joshua Kimmich"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Kingsley Coman",
+      "league": "Bundesliga",
+      "price": "8000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Coman.png",
+        "alt": "Kingsley Coman"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Kolo Muani",
+      "league": "Ligue 1",
+      "price": "4000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Kolo.png",
+        "alt": "Kolo Muani"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Reece James",
+      "league": "Premier League",
+      "price": "3000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/James.png",
+        "alt": "Reece James"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Kylian Mbappe",
+      "league": "Ligue 1",
+      "price": "2400000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Kylian_Mbappe.png",
+        "alt": "Kylian Mbappe"
+      },
+      "search_history": [
+        "2023-11-26", 
+        "2023-11-25", 
+        "2023-11-24"
+      ]
+    },
+    {
+      "name": "Lautaro Martinez",
+      "league": "Seria A",
+      "price": "16000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Martinez.png",
+        "alt": "Lautaro Martinez"
+      },
+      "search_history": []
+    },
+    {
+      "name": "De Jong",
+      "league": "La Liga",
+      "price": "80000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/de_Jong.png",
+        "alt": "De Jong"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Mohamed Salah",
+      "league": "Premier League",
+      "price": "130000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Mohamed_Salah.png",
+        "alt": "Mohamed Salah"
+      },
+      "search_history": [
+        "2023-11-25", 
+        "2023-11-24"]
+    },
+    {
+      "name": "Tonali",
+      "league": "Premier League",
+      "price": "11000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Tonali.png",
+        "alt": "Tonali"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Rodri",
+      "league": "Premier League",
+      "price": "35000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Rodri.png",
+        "alt": "Rodri"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Theo Hernandez",
+      "league": "Seria A",
+      "price": "20000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Theo_Hernandez.png",
+        "alt": "Theo Hernandez"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Musiala",
+      "league": "Bundesliga",
+      "price": "20000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Musiala.png",
+        "alt": "Musiala"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Vini Jr.",
+      "league": "La Liga",
+      "price": "620000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Vini_Jr.png",
+        "alt": "Vini Jr."
+      },
+      "search_history": [
+        "2023-11-26"
+      ]
+    },
+    {
+      "name": "Jota",
+      "league": "Premier League",
+      "price": "20000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Jota.png",
+        "alt": "Jota"
+      },
+      "search_history": []
+    },
+    {
+      "name": "Virgil van Dijk",
+      "league": "Premier League",
+      "price": "140000",
+      "img": {
+        "lowsrc": "...",
+        "src": "imgs/Virgil_van_Dijk.png",
+        "alt": "Virgil van Dijk"
+      },
+      "search_history": []
+    }
+  ]
+}
